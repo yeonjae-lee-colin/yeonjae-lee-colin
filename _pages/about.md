@@ -1,20 +1,51 @@
 ---
+layout: splash # splash-custom.html 레이아웃에 아래 내용이 삽입됨
 permalink: /about/
-title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+title: "시네틱스 소개"
+sidebar_category: false
+excerpt: "시네틱스에 대한 소개 설명"
+header:
+  image: "/assets/images/teaser_img_601894868412.png"
+# feature_row > 솔루션 소개
+feature_row:
+  - image_path: /assets/images/Data analyzing _Outline.png
+    title: "JENKINS를 이용한 지속적 통합"
+    excerpt: "​기능안전 SW 개발을 위한 ALM 구축 전문 기업 Automotive, 철도, 항공 SW 개발을 위한 지속적 통합과 빌드 가상화 컨설팅과 교육을 제공합니다."
+    url: "/blog/"
+    btn_class: "btn--primary"
+    btn_label: "자세히보기"
+  - image_path: /assets/images/Settings_Outline.png
+    
+    title: "REDMINE을 이용한 이슈 관리"
+    excerpt: "​기능안전 SW 개발을 위한 ALM 구축 전문 기업 Automotive, 철도, 항공 SW 개발을 위한 지속적 통합과 빌드 가상화 컨설팅과 교육을 제공합니다."
+    url: "/blog/"
+    btn_class: "btn--primary"
+    btn_label: "자세히보기"
+  - image_path: /assets/images/Analytics process_Outline.png
+    title: "VMWARE를 이용한 빌드 가상화"
+    excerpt: "​기능안전 SW 개발을 위한 ALM 구축 전문 기업 Automotive, 철도, 항공 SW 개발을 위한 지속적 통합과 빌드 가상화 컨설팅과 교육을 제공합니다."
+    url: "/blog/"
+    btn_class: "btn--primary"
+    btn_label: "자세히보기"      
+
+
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
+    image_path:  /assets/images/Analytics process_Outline.png
     alt: "splash layout example"
   - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
+    image_path:  /assets/images/Analytics process_Outline.png
     alt: "single layout with comments and related posts"
   - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
+    image_path:  /assets/images/Analytics process_Outline.png
     alt: "archive layout example"
-last_modified_at: 2021-05-11T10:23:16-04:00
-toc: true
+
+toc: true # 링크 이동가능한 목차
+toc_sticky : true
 ---
+
+{% include feature_row %}
+
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 

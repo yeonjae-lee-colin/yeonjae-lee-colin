@@ -102,11 +102,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "작성자이름"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "작성자소개"
+  # location         : "Somewhere"
+  email            : "작성자이메일@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -294,6 +294,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      header: 
+        overlay_color: "#fff"
+
+
+      
 
   # _pages                     
   - scope:

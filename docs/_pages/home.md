@@ -1,7 +1,8 @@
 ---
 layout: splash
-permalink: /
+permalink: /home/
 hidden: true
+sidebar-right : true 
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
